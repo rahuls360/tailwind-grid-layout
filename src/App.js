@@ -1,24 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="flex flex-wrap mb-4">
+        <div className="lg:w-1/2 md:w-full bg-gray-500 h-12"></div>
+        <div className="lg:w-1/2 md:w-full bg-gray-400 h-12"></div>
+        <div className="lg:w-1/3 sm:w-full md:w-1/2 bg-gray-300 h-12"></div>
+        <div className="lg:w-1/3 sm:w-full md:w-1/2 bg-gray-200 h-12"></div>
+        <div className="lg:w-1/3 sm:w-full md:w-1/2 bg-gray-100 h-12"></div>
+      </div>
     </div>
   );
 }
