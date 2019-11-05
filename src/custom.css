@@ -1,0 +1,25 @@
+ /* Custom css */
+
+.h-12 {
+  height: 3rem !important; 
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+.grey {
+  background-color: grey;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.pink {
+  background-color: pink;
+}
